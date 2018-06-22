@@ -38,4 +38,3 @@ module.exports = function cardControllerFactory({ repository, handle }) {
     },
   };
 };
-

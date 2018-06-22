@@ -46,4 +46,3 @@ module.exports = aggregateFactory({
     used: 0,
   },
 });
-

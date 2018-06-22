@@ -7,4 +7,3 @@ module.exports = {
   CARD_REPAID,
   LIMIT_ASSIGNED,
 };
-

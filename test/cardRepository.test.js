@@ -1,9 +1,8 @@
-
 const test = require('ava');
+const randomatic = require('randomatic');
 const cardFactory = require('../example/card/card');
 const { repositoryFactory } = require('../lib');
 const { initStore } = require('../lib');
-const randomatic = require('randomatic');
 
 function clock() { return new Date('August 19, 2018 23:15:30 UTC'); }
 const cardAggregate = cardFactory({ clock });
