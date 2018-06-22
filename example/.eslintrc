@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "no-console" : "off",
+    "no-param-reassign": ["error", {
+      "ignorePropertyModificationsFor": ["state"]
+    }],
+    "global-require": ["off"]
+  }
+}
